@@ -1,0 +1,51 @@
+
+header {
+  background-color: black;
+  padding: 1px;
+  text-align: center;
+  font-size: 6px;
+  color: white;
+}
+footer {
+  background-color: black;
+  padding: 1px;
+  text-align: center;
+  font-size: 8px;
+  color: white;
+}
+
+form {
+  text-align: center;
+}
+input { 
+  text-align: center;
+  border  : 1px  solid blue ;
+  padding : 4px ;
+  margin: 4px;  
+  border: 2px solid powderblue;
+  width:90%;
+}
+textarea{
+
+  border: 2px solid  powderblue; 
+}
+label {   
+  text-align: center;
+  padding : 10px ;
+}
+table {
+  text-align: center;
+  border-collapse: collapse;
+  width: 16%;
+}
+#wep {
+  margin: -60px 50px 300px 500px;
+}
+.Submit {
+  position:relative; 
+  
+  top: 0px; 
+  right: 180px;
+  font-size: 20px;
+  text-align: center;
+}
