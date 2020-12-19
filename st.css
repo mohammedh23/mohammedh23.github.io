@@ -14,13 +14,6 @@ input {
   border: 1px solid powderblue;
   width:80%;
 }
-footer {
-  background-color: black;
-  padding: 1px;
-  font-size: 8px;
-  text-align: center;
-  color: white;
-}
 body 
 {
   background-image: url("hhh.jpg");
@@ -28,6 +21,13 @@ body
     background-attachment: fixed;
     background-size: 100% 100%;
   
+}
+footer {
+  background-color: black;
+  padding: 1px;
+  font-size: 8px;
+  text-align: center;
+  color: white;
 }
 label {   
   text-align: center;
@@ -39,7 +39,7 @@ table {
   width: 18%;
 }
 #wep {
-  margin: -45px 30px 200px 450px;
+  margin: -45px 30px 300px 450px;
 
 }
 .Submit {
@@ -57,9 +57,17 @@ textarea{
 }
 a{
   text-align: left ; 
-
 }
 button {
-  background-color: rgb(0, 132, 255);
-  color: white;
-}
+  color: white !important;
+  background: rgb(0, 140, 255);
+  padding: 10px;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 10px;
+  border: none;
+  transition: all 0.4s ease 0s;
+}  
+ 
+
