@@ -21,6 +21,14 @@ footer {
   text-align: center;
   color: white;
 }
+body 
+{
+  background-image: url("hhh.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  
+}
 label {   
   text-align: center;
   padding : 9px ;
