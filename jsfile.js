@@ -6,45 +6,45 @@ function my () {
     var x4 =document.getElementById("massage").value;
     
         if(x==""&&x1==""&&x2==""&&x3==""&&x4==""){ 
-        alert("please the Fields empty ");
-        return false;
+        alert(" Please The Fields Empty ");
+        return false;s
         }
          if (x==""){
-            alert("please the Field  Subject is empty ");
+            alert(" Please The Field  Subject Is Empty ");
         return false;
          }
          
         else if (x1==""){
-            alert("please the Field  email is empty ");
+            alert(" Please The Field  Email Is Empty ");
         return false;
         }
         else if (x2==""){
-            alert("please the Field  ID is empty ");
+            alert(" Please The Field  ID Is Empty ");
         return false;
         }
         else if (x3==""){
-            alert("please the Field  URL is empty ");
+            alert(" Please The Field  URL Is Empty ");
         return false;
         }
         else if (x4==""){
-            alert("please the Field  massage is empty ");
+            alert(" Please The Field  Massage Is Empty ");
         return false;
         }
         for(var i = 0;i<x.length;i++){
             if(!(x[i]>='a'&&x[i]<='z'||x[i]>='A'&&x[i]<='Z')){
-            alert(" the Subject contain a number ");
+            alert(" Error : The Subject Contain A Number ");
             break;
             }
           }
           for(var i = 0;i<x4.length;i++){
          if(!(x4[i]>='a'&&x4[i]<='z'||x4[i]>='A'&&x4[i]<='Z')){
-           alert(" the massage contain a number  ");
+           alert(" Error: The Massage Contain A Number  ");
            break;
            }
          }
         for(var i = 0;i<x2.length;i++){
             if((x2[i]>='a'&&x2[i]<='z'||x2[i]>='A'&&x2[i]<='Z')){
-            alert(" the id is contain a char ");
+            alert(" Error : The Id Is Contain A Char ");
             break;
             }
           }
@@ -66,4 +66,6 @@ function my () {
 
      
 }
+
+
 
