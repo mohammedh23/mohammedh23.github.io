@@ -1,0 +1,68 @@
+
+header {
+  background-color: black;
+  padding: 1px;
+  font-size: 10px;
+  text-align: center;
+  color: white;
+  margin: 80px 100px 280px 180px;
+}
+body 
+{
+  background-image: url("hhh.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  
+}
+footer {
+  background-color: black;
+  padding: 1px;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  margin: -240px 100px 280px 180px;
+}
+label {   
+  text-align: center;
+  padding : 9px ;
+}
+table {
+  text-align: center;
+  border-collapse: collapse;
+  width: 18%;
+}
+#wep {
+  margin: -200px 30px 300px 450px;
+}
+form {
+  text-align: center;
+}
+textarea{
+  border: 3px solid  powderblue; 
+}
+input {
+  color: white ;
+  background: rgb(0, 140, 255);
+  padding: 5px;
+  display: inline-block;
+  border-radius: 10px;
+  text-align: center;
+  border  : 1px ;
+  margin: 5px;  
+  width:80%;
+}  
+.asi {
+  position: absolute; 
+  top: 10px; 
+  left: 8px;
+  font-size: 20px;
+}
+.asa {
+  position: absolute; 
+  top: 10px; 
+  right: 8px;
+  font-size: 20px;
+}
+
+ 
