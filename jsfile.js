@@ -31,13 +31,13 @@ function my () {
         return false;
         }
         for(var i = 0;i<x.length;i++){
-            if(x[i]=='"'){
+            if(x4[i]==='string'){
             alert(" Error : The Subject Is Not A String ");
             break;
             }
           }
           for(var i = 0;i<x4.length;i++){
-            if(x4[i]=='"'){
+            if(x4[i]==='string'){
             alert(" Error : The Massage Is Not A String ");
             break;
             }
