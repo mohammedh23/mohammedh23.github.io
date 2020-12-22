@@ -30,24 +30,28 @@ function my () {
             alert(" Please The Field  Massage Is Empty ");
         return false;
         }
-        for(var i = 0;i<x.length;i++){
-            if(x4[i]==='string'){
-            alert(" Error : The Subject Is Not A String ");
-            break;
+        if(x != ""){
+            for(var i = 0;i<x.length;i++){
+              if(!(x[i]>='a'&&x[i]<='z'||x[i]>='A'&&x[i]<='Z')){
+              alert(" Error : The Subject Is Contain A Not String ");
+              break;
+              }
+              }
             }
-          }
-          for(var i = 0;i<x4.length;i++){
-            if(x4[i]==='string'){
-            alert(" Error : The Massage Is Not A String ");
-            break;
-            }
-          }
+            if(x4 != ""){
+                for(var i = 0;i<x4.length;i++){
+                 if(!(x4[i]>='a'&&x4[i]<='z'||x4[i]>='A'&&x4[i]<='Z')){
+                 alert(" Error : The Massage Is Contain A Not String");
+                 break;
+                 }
+                 }
+               }
         for(var i = 0;i<x2.length;i++){
             if((x2[i]>='a'&&x2[i]<='z'||x2[i]>='A'&&x2[i]<='Z')){
             alert(" Error : The Id Is Contain A Char ");
             break;
             }
-          }
+           }
           var t = x1;
          var start = x1.indexOf("@");
          var c = "";
@@ -63,7 +67,6 @@ function my () {
         b = b + q[i];
         }
         alert(b);
-
-     
 }
+
 
